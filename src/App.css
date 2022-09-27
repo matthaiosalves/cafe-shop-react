@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --White:#FAFAFA;
+  --PurpeLight:#EBE5F9;
+  --PurpeDark:#4B2995;
+  --YellowLight:#F1E9C9;
+  --Orange:#C47F17;
+}
+body {
+  background-color: var(--White);
+}
+.container {
+  max-width: 1115px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}

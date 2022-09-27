@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 100%;
+  height: 160px;
+}
+.navbar .buttonsNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  align-items:center;
+}
+.navbar .buttonsNav .btnLocation {
+  background-color: var(--PurpeLight);
+
+  border-radius: 6px;
+  padding: 8px;
+  height: 40px;
+
+  text-decoration: none;
+  color: var(--PurpeDark);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  transition: all .2s;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .buttonsNav .btnLocation:hover {
+  filter: brightness(.95);
+}
+.navbar .buttonsNav .btnCart {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  transition: all .2s;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  color: var(--Orange);
+  background-color: var(--YellowLight);
+  border-radius: 6px;
+  padding: 8px;
+  height: 40px;
+}
+.navbar .buttonsNav .btnCart:hover {
+  filter: brightness(.95);
+}
