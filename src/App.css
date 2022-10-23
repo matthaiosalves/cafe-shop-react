@@ -5,10 +5,14 @@
 }
 :root {
   --White:#FAFAFA;
+  --Black500:#272221;
+  --Black300:#403937;
+  --Black200:#574F4D;
   --PurpeLight:#EBE5F9;
   --PurpeDark:#4B2995;
   --YellowLight:#F1E9C9;
   --Orange:#C47F17;
+
 }
 body {
   background-color: var(--White);

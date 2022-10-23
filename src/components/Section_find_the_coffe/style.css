@@ -1,0 +1,45 @@
+.find-the-coffe > .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.find-the-coffe .container .box-title {
+  max-width: 588px;
+  margin-right: auto;
+}
+.find-the-coffe .container .box-title .title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 55px;
+  color: var(--Black500);
+}
+.find-the-coffe .container .box-title .description {
+  margin-top: 18px;
+}
+.find-the-coffe .container .box-title .description small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--Black300);
+}
+.find-the-coffe .container .box-title .box-itens {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.find-the-coffe .container .box-title .box-itens .item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.find-the-coffe .container .box-title .box-itens .item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--Black200);
+}

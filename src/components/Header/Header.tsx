@@ -3,11 +3,11 @@ import './style.css'
 
 
 export const Header = () => {
-return (
-<header>
-  <div className="container">
-    <Navbar></Navbar>
-  </div>
-</header>
-);
+  return (
+  <header>
+    <div className="container">
+      <Navbar></Navbar>
+    </div>
+  </header>
+  );
 }
